@@ -1,5 +1,5 @@
 .Button {
-    background-color: teal;
+    background-color: darkgreen;
     color: white;
     padding: 10px;
     border-radius: 5px;
@@ -8,6 +8,6 @@
 }
 
 .Button:hover {
-    background-color: teal;
+    background-color: rgb(12, 143, 12);
     cursor: pointer;
 }
