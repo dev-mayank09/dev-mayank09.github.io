@@ -2,8 +2,8 @@ import SkillCard from '../SkillCard/SkillCard';
 import './Skills.css';
 
 function Skills(props) {
-    return <div className="Skills">
-        <h1>SKILLS</h1>
+    return <div className="Skills" id="skills">
+        <h1 className='section-heading'>SKILLS</h1>
         <div className="skillsContainer">
             <SkillCard image="https://cdn-icons-png.flaticon.com/128/174/174854.png" skill_name="HTML" />
             <SkillCard image="https://mohitkss.github.io/static/media/css3.845e8eb63836bef093cf.png" skill_name="CSS" />

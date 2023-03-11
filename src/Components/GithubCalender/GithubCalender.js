@@ -3,8 +3,8 @@ import { GithubContributions } from "react-github-graph";
 import './GithubCalender.css';
 
 function GithubCalender() {
-    return <div className="GithubCalender">
-        <h1>DAYS I WORKED</h1>
+    return <div className="GithubCalender" id="stats">
+        <h1 className='section-heading'>DAYS I WORKED</h1>
         <GithubContributions username="dev-mayank09"/>
     </div>
 }

@@ -2,15 +2,37 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 30px;
+    padding: 10px 0px;
     box-shadow: 0px 0px 10px black;
     position: sticky;
     top: 0px;
     background-color: whitesmoke;
+    font-style: italic;
 }
 
-a {
+.Navbar::before {
+    content: "";
+    position: absolute;
+    background: url(../../../public/portfolio-bg.jpg) no-repeat center center/cover;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.3;
+}
+
+.name-div {
+    margin-left: 50px;
+}
+
+.nav-item {
     margin-right: 50px;
     text-decoration: none;
     color: black;
+    font-weight: bold;
+}
+
+.nav-item:hover {
+    cursor: pointer;
+    border-bottom: 3px solid teal;
+    padding-bottom: 10px;
 }

@@ -12,7 +12,7 @@
     border-radius: 5px;
 }
 
-.tagsDiv > span {
+.tagsDiv>span {
     font-weight: bold;
     margin-right: 10px;
 }
@@ -25,23 +25,22 @@
     margin: 20px 0px;
 }
 
-.linksDiv > a {
+.linksDiv>a {
     padding: 10px;
     color: white;
     border-radius: 5px;
+    text-decoration: none;
+    margin-right: 50px;
 }
 
-.linksDiv > a > i {
+.linksDiv>a>i {
     margin: 0px 5px;
 }
 
-.linksDiv > a:first-child {
+.linksDiv>a:first-child {
     background-color: black;
 }
 
-.linksDiv > a:last-child {
+.linksDiv>a:last-child {
     background-color: royalblue;
 }
-
-
-

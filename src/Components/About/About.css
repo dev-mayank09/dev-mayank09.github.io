@@ -1,20 +1,30 @@
+.About {
+    margin-bottom: 100px;
+}
+
+.About>h1 {
+    text-align: center;
+}
+
 .PersonalDetails {
     width: 80%;
     margin: auto;
     display: flex;
+    justify-content: space-between;
     padding: 20px;
-    box-shadow: 0 0 10px green;
+    box-shadow: 0 0 10px teal;
     border-radius: 10px;
 }
 
-.PersonalDetails > div:first-child {
+.PersonalDetails>div:first-child {
     padding: 10px 20px;
-    border-radius: 10px;
+    width: 35%;
 }
 
-.PersonalDetails > div:last-child {
+.PersonalDetails>div:last-child {
     margin-left: 20px;
     padding: 20px;
+    width: 65%;
 }
 
 h3 {
