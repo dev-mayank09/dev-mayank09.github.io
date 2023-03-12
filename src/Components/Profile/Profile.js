@@ -11,7 +11,7 @@ function Profile() {
                 </button>
             </div>
             <div>
-                <img style={{ height: "300px", borderRadius: "50%", boxShadow: "0 0 10px black" }} src="my-photo-2.jpg" alt="avatar" />
+                <img style={{ height: "250px", borderRadius: "50%", boxShadow: "0 0 10px black" }} src="my-photo-1.jpg" alt="avatar" />
             </div>
 
         </div>
