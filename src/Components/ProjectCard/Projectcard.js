@@ -18,8 +18,8 @@ function ProjectCard({ image, title, desc, type, tech_stack, github_link, websit
                 }
             </div>
             <div className="linksDiv">
-                <a href={github_link} target="_blank"><i class="fa-brands fa-github"></i>Github</a>
-                <a href={website_link} target="_blank"><i class="fa-regular fa-life-ring"></i>Live</a>
+                <a href={github_link} target="_blank" rel="noreferrer"><i class="fa-brands fa-github"></i>Github</a>
+                <a href={website_link} target="_blank" rel="noreferrer"><i class="fa-regular fa-life-ring"></i>Live</a>
             </div>
 
         </div>

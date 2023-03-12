@@ -7,7 +7,7 @@ function Profile() {
                 <h1>Hi, I am Mayank Sharma.</h1>
                 <p>I am a Full Stack Web Developer with knowledge in Frontend and Backend technologies and I make user-friendly websites.</p>
                 <button className="resume-button">
-                    <a href="mayank-resume.pdf" download>Download Resume</a>
+                    <a href="Mayank_Sharma_Resume.pdf" download>Download Resume</a>
                 </button>
             </div>
             <div>
