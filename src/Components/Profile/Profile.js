@@ -11,7 +11,7 @@ function Profile() {
                 </button>
             </div>
             <div>
-                <img style={{ height: "300px", borderRadius: "50%", boxShadow: "0 0 10px black" }} src="https://ca.slack-edge.com/T03BHDQT1GT-U03E83063EF-eca94e08ed07-512" alt="avatar" />
+                <img style={{ height: "300px", borderRadius: "50%", boxShadow: "0 0 10px black" }} src="my-photo-2.jpg" alt="avatar" />
             </div>
 
         </div>
