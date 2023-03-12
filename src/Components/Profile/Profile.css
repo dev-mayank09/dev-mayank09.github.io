@@ -2,10 +2,12 @@
     width: 80%;
     margin: auto;
     display: flex;
-    justify-content: space-around;
+    gap: 50px;
+    justify-content: center;
     align-items: center;
-    padding-top: 50px;
     margin-bottom: 100px;
+    padding-top: 30px;  
+    text-align: center;
 }
 
 .UserProfile::before {
@@ -18,17 +20,10 @@
     opacity: 0.3;
 }
 
-.UserProfile>div {
-    margin: 0px 20px;
-}
-
-.UserProfile>div:first-child {
-    width: 500px;
-}
-
-.UserProfile>div>h1,
-.UserProfile>div>p {
-    margin: 10px 0px;
+#avatar {
+    width: 80%;
+    border-radius: 50%;
+    box-shadow: 0 0 10px black;
 }
 
 .resume-button {
